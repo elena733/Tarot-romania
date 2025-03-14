@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot România</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tarot România</h1>
+        <nav>
+            <a href="#home">Acasă</a>
+            <a href="#lecturi">Lecturi de Tarot</a>
+            <a href="#oracole">Oracole & Zodiace</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Bine ai venit la Tarot România</h2>
+        <p>Descoperă secretele viitorului prin cărțile de tarot și oracolele mistice.</p>
+    </section>
+    <section id="lecturi">
+        <h2>Lecturi de Tarot</h2>
+        <p>Alege între diferite tipuri de lecturi personalizate pentru a primi ghidare.</p>
+        <h3>Tiradă online de Da sau Nu</h3>
+        <p>Concentrează-te pe o întrebare și apasă butonul pentru a primi un răspuns.</p>
+        <button onclick="tiradaSiONo()">Găsește răspunsul</button>
+        <p id="respuestaTarot"></p>
+    </section>
+    <section id="blog">
+        <h2>Explicații ale cărților de Tarot</h2>
+        <div class="tarot-cards">
+            <img src="images/magician.jpg" alt="The Magician">
+            <p><strong>The Magician</strong> - Puterea manifestării și noile începuturi.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Tarot România. Toate drepturile rezervate.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
